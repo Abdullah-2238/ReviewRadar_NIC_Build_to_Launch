@@ -1,0 +1,9 @@
+{
+  "ready": false,
+  "version": "0",
+  "labels": ["Negative", "Positive"],
+  "vocabulary": {},
+  "weights": [],
+  "bias": 0,
+  "note": "Placeholder only. The app ignores this file until ready is true and weights is a non-empty array. Map each word to a weight index. Positive weights push the score toward Positive."
+}

@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+  background:
+    radial-gradient(ellipse at 82% 0%, rgb(204 251 241 / 38%), transparent 34rem),
+    #f7f8f6;
+}
+
+::selection {
+  color: #134e4a;
+  background: #ccfbf1;
+}
